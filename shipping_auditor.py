@@ -44,3 +44,9 @@ fees = apply_shipping_fee(cleaned_weights)
 stats = get_inventory_stats(cleaned_weights, fees)
 
 print(stats)
+
+# 1. local working directory
+#  a. Initially all files will be Untracked stage (which git is not tracking any files in the directory yet)
+#  b. After git add, files will be in Staging stage (ready to be committed, will be tracked by git)
+#  c. After git commit, files will be in Committed stage (saved in local repository, but not yet pushed to remote repository)
+#  d. After git push, files will be in Remote repository (available on GitHub or other hosting service, can be accessed by others if repository is public)
