@@ -1,0 +1,4 @@
+[deploy]
+startCommand = "python shipping_auditor.py"
+cronSchedule = "0 2 * * *"  # Runs daily at 2 AM UTC
+
